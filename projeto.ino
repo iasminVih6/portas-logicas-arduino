@@ -11,8 +11,6 @@ int pin_B_Or = 3;
 int pin_saidaNot = 8;
 int pin_A_Not = 4;
 
-
-
 void setup()
 {
   pinMode(pin_saidaAnd, OUTPUT);
@@ -25,24 +23,16 @@ void setup()
   //not
   pinMode(pin_saidaNot, OUTPUT);
   pinMode(pin_A_Not,INPUT);
- 
-  
 }
 
 void loop()
 {
   bool S = portaXor(digitalRead(pin_A_And),digitalRead(pin_B_And));
   digitalWrite(pin_saidaAnd,S);
-
-  
   bool S2 = portaOr(digitalRead(pin_A_Or),digitalRead(pin_B_Or));
   digitalWrite(pin_saidaOr,S2);
-  
   bool S3 = portaNot(digitalRead(pin_A_Not));
   digitalWrite(pin_saidaNot,S3);
-  
-  
-  
 }
 //E
 bool portaAnd(bool A, bool B)
@@ -61,7 +51,6 @@ bool portaOr(bool A, bool B)
     return false;
 }
 //not
-
 bool portaNot(bool A)
 {
   if(A == true)
@@ -69,9 +58,7 @@ bool portaNot(bool A)
   else 
     return true;
 }
-
 //shor
-
 bool portaXor(bool A, bool B){
   bool S1 = portaNot(A);
   bool S2 = portaNot(B);
