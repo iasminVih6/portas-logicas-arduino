@@ -8,13 +8,13 @@ as portas recebem sinais de entrada com interruptores e retornam o resultado ló
 
 ## 🧩 Componentes Utilizados
 - 1 × Arduino Uno R3  
-- 3 × LEDs  
-- 3 × Resistores 220Ω
-- 3 x Resistores 1 kΩ 
-- 5 x interruptor Deslizante
+- 4 × LEDs  
+- 4 × Resistores 220Ω
+- 4 x Resistores 1 kΩ 
+- 7 x interruptor Deslizante
 
  ## 🔗 Link do Projeto no Tinkercad
-Acesse a simulação aqui : https://www.tinkercad.com/things/2X5qro8yvcT-portas-logicas-17102025/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=0I8qXhIVkb9I-TGrywlm40EkCXGjRrOH0bS0SfZw3Yk
+Acesse a simulação aqui :https://www.tinkercad.com/things/bDEGrtGFmqI-portas-logicas-17102025/editel?returnTo=%2Fthings%2FbDEGrtGFmqI-portas-logicas-17102025&sharecode=YeUS0BYK7HRP5NGCpQsszojYdzG2coYUZLtvFB5Qk-4
 
 🧩 Desenvolvido por Iasmin Vitória
 💻 Projeto feito para fins didáticos — Arquitetura de Computadores - 1°semestre
